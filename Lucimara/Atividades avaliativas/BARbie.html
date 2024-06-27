@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BARbie</title>
+    <link rel="stylesheet" href="bb.css">
+</head>
+<body>
+    <h1>Seja bem vindo ao BARbie</h1>
+    <h2>Aqui você pode apreciar comida e bebidas de qualidade, músicas de banda ao vivo, além de um ótimo espaço.</h2>
+    <h3>Prencha o formulário a seguir para saber se está apto a entar no nosso estabelcimento!</h3>
+    <form action="BARbie.php" method="get">
+        <br>
+    <label for="nome">Qual seu nome?</label>
+    <input type="text" name="nome" id="idnome">
+    <fieldset>
+        <legend>Qual sua idade?</legend>
+        <input type="radio" name="idade" id="ididade" value="1" checked>
+        <label for="menor">Menor de 16</label>
+        <input type="radio" name="idade" id="ididade" value="2">
+        <label for="meio">16 ou 17 anos</label>
+        <input type="radio" name="idade" id="ididade" value="3">
+        <label for="maior">18 anos ou mais</label>
+    </fieldset>
+    <br>
+    <input type="submit" value="Enviar">
+</body>
+</html>

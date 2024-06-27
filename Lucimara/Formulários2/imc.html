@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<style>
+  body{
+      background-color: rgb(143, 112, 179);
+  }
+ h1{
+  color: aliceblue;
+ }
+ main{
+        color: white;
+  }
+</style>
+<body>
+  <main>
+    <h1>IMC</h1>
+    <form action="imc.php" method="get">
+    <label for="nome">Digite seu nome:</label>
+    <input type="text" name="nome" id="idnom">
+    <br>
+    <br>
+    <label for="altura">Digite sua altura:</label>
+    <input type="number" name="altura" id="idaltura">
+    <br>
+    <br>
+    <label for="peso">Digite seu peso:</label>
+    <input type="number" name="peso" id="idpeso">
+    <input type="submit" value="Calcular IMC">
+</form>
+  </main>
+    
+</body>
+</html>
