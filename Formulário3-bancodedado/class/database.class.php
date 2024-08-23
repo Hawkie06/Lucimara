@@ -7,7 +7,7 @@ class Database{
 
     private $con;
 
-    function__construct()
+    function __construct()
     {
         $this->driver = "mysql";
         $this->host = "localhost";
@@ -21,11 +21,11 @@ class Database{
                 "$this->driver: host=$this; dbname$this->dbname",
                 $this->username
             );
-           $this->con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMOD_WARNING);
+           $this->con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 
            return $this->con;
 
-        }catch(Excepttion $e) {
+        }catch(Exception $e) {
                  echo $e->getMessage();
         }
     }
