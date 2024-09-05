@@ -14,3 +14,4 @@
  echo "Boa semana!";
 
 ?>
+Aqui mostra as informações que estão no banco de dados.
