@@ -1,8 +1,7 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Italiana&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    background-image: url(Final1.jpg);
+    background-image: url(Final4.3.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 
@@ -31,8 +30,8 @@ body{
   }
   a{
     color: #ffffff;
-    font-size: 40px;
-     background-color:  rgba(9, 0, 26, 0);
+    font-size: 50px;
+     background-color:  #4f37908e;
      margin-bottom: 0px;
      margin-left: 1735px;
      font-family: "Italiana", serif;
@@ -47,7 +46,7 @@ body{
   
   a:hover {
     margin-left: 1725px;
-    font-size: 45px;
+    font-size: 50px;
     border-radius: 5px;
     background-color: rgba(40, 2, 65, 0.863);
     color: white;
@@ -59,5 +58,3 @@ body{
     width: 50px;
     height: 870px;
   }
-  
- 
